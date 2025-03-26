@@ -78,6 +78,8 @@ public class MainActivity extends AppCompatActivity {
      *
      * @return True if external storage is available, false otherwise.
      */
+
+
     public boolean isExternalStorageAvailable() {
         String state = Environment.getExternalStorageState();
         return Environment.MEDIA_MOUNTED.equals(state);
